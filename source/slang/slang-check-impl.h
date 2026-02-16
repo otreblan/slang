@@ -1888,7 +1888,7 @@ public:
 
     void visitModifier(Modifier*);
 
-    DeclRef<VarDeclBase> tryGetIntSpecializationConstant(Expr* expr);
+    DeclRef<VarDeclBase> tryGetSpecializationConstant(Expr* expr);
 
     AttributeDecl* lookUpAttributeDecl(Name* attributeName, Scope* scope);
 
